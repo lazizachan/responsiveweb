@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  /* padding: 2rem 0; */
+  width: 1200px;
+  margin: 1.5rem auto;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #f7f7f7; */
+  border-radius: 40px;
+}
+header {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+.head_pic {
+  width: 900px;
+  border-radius: 30px;
+}
+.main_title1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main {
+  margin: 0 auto;
+  width: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main_explain {
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgb(123, 115, 115);
+}
+.prepare_timebox {
+  background-color: rgb(254, 236, 239);
+  border-radius: 20px;
+  padding-left: 2.5rem;
+  margin-bottom: 1rem;
+}
+.prepare_title {
+  padding-bottom: 1rem;
+  list-style-type: none;
+  color: rgb(66, 19, 66);
+  font-size: 1rem;
+  text-align: left;
+}
+.preparetimelist2 {
+  padding-left: 1.5rem;
+  font-size: 1.5rem;
+}
+.ingridientsbox {
+  padding-left: 2.5rem;
+  margin-bottom: 1rem;
+}
+.ingridients_list1 li {
+  list-style: none;
+  color: #8a4b2c;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.ingridients_list2 {
+  padding-left: 1rem;
+  font-size: 1.1rem;
+}
+.ingridients_list2 li {
+  color: #8a4b2c;
+}
+.ingridients_list2 li span {
+  color: black;
+}
+.instructionbox {
+  padding-left: 2.5rem;
+  margin-bottom: 1.1rem;
+  color: rgb(123, 115, 115);
+}
+
+.instruction_list1 {
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #8a4b2c;
+  list-style-type: none;
+}
+.instruction_list2 {
+  padding-left: 1rem;
+  font-size: 1.1rem;
+}
+footer {
+  margin: 0 auto;
+  width: 900px;
+}
+.nutritonbox {
+  padding-left: 2.5rem;
+}
+
+.nutritonbox h2 {
+  padding-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #8a4b2c;
+}
+.nutritonbox p {
+  font-size: 1.2rem;
+  color: rgb(123, 115, 115);
+}
+.nutrition_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.nutrition_table td {
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+  color: #333;
+  padding: 8px 0;
+}
+.nutrition_table td:first-child {
+  color: #8a4b2c;
+  padding-left: 0.9rem;
+  font-size: 1.2rem;
+}
+.nutrition_table td:last-child {
+  color: #d9534f;
+  font-weight: bold;
+  text-align: justify;
+  padding-right: 3rem;
+  font-size: 1.1rem;
+}
+.nutrition_table .fat_paddingbottom {
+  border-bottom: none;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .wrapper {
+    width: 100%;
+    padding: 0.6rem;
+  }
+  header {
+    width: 100%;
+  }
+  .head_pic {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  .main_title1 {
+    font-size: 2rem;
+  }
+  .main_explain {
+    font-size: 1.5rem;
+  }
+  .prepare_timebox {
+    padding: 0.5rem;
+    width: 100%;
+  }
+  .prepare_title {
+    font-size: 1.5rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.4rem;
+  }
+
+  .preparetimelist2 {
+    font-size: 1.4rem;
+  }
+  .ingridientsbox {
+    padding: 0.6rem;
+    width: 100%;
+  }
+  .ingridients_list1 li {
+    font-size: 1.5rem;
+    padding-bottom: 0.2rem;
+  }
+  .ingridients_list2 {
+    font-size: 1.4rem;
+    padding-left: 1.5rem;
+  }
+  .instructionbox {
+    width: 100%;
+    padding: 0.6rem;
+  }
+  .instruction_list1 {
+    padding-bottom: 0.2rem;
+    font-size: 1.5rem;
+  }
+  .instruction_list2 {
+    font-size: 1.3rem;
+    padding-left: 1.5rem;
+  }
+  footer {
+    width: 100%;
+  }
+  .nutritonbox {
+    width: 100%;
+    padding: 0.6rem;
+  }
+  .nutritonbox h2 {
+    padding-bottom: 0.2rem;
+    font-size: 2.5rem;
+  }
+  .nutritonbox p {
+    font-size: 1.5rem;
+  }
+  .nutrition_table td:first-child {
+    font-size: 1.5rem;
+  }
+  .nutrition_table td:last-child {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 775.9px) and (min-width: 474.9pxs) {
+  .wrapper {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  header {
+    width: 100%;
+  }
+  .head_pic {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
+}
+@media (max-width: 475px) and (min-width: 162px) {
+  .wrapper {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  header {
+    width: 100%;
+  }
+  .head_pic {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  .main_title1 {
+    font-size: 1.4rem;
+  }
+  .main_explain {
+    font-size: 1rem;
+  }
+  .prepare_timebox {
+    padding: 0.4rem;
+    width: 100%;
+  }
+  .prepare_title {
+    font-size: 1rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.4rem;
+  }
+
+  .preparetimelist2 {
+    font-size: 0.9rem;
+  }
+  .ingridientsbox {
+    padding: 0.6rem;
+    width: 100%;
+  }
+  .ingridients_list1 li {
+    font-size: 0.8rem;
+    padding-bottom: 0.2rem;
+  }
+  .ingridients_list2 {
+    font-size: 0.9rem;
+  }
+  .instructionbox {
+    width: 100%;
+    padding: 0.6rem;
+  }
+  .instruction_list1 {
+    padding-bottom: 0.2rem;
+    font-size: 0.8rem;
+  }
+  .instruction_list2 {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    width: 100%;
+  }
+  .nutritonbox {
+    width: 100%;
+    padding: 0.6rem;
+  }
+  .nutritonbox h2 {
+    padding-bottom: 0.2rem;
+    font-size: 1.3rem;
+  }
+  .nutritonbox p {
+    font-size: 0.9rem;
+  }
+  .nutrition_table td:first-child {
+    font-size: 0.9rem;
+  }
+  .nutrition_table td:last-child {
+    font-size: 0.9rem;
+  }
+}
